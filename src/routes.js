@@ -12,7 +12,7 @@ const BaseRouter = () => (
   <div>
     <Switch>
       <Route exact path='/' component={Home} />
-      <Route exact path='/news' component={News} />
+      <Route exact path='/upcoming-events' component={News} />
       {/* 
       <Route exact path='/projects/' component={} /> */}
       <Route exact path='/about/' component={About} />
