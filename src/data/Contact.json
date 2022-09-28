@@ -8,9 +8,9 @@
             "uid": "11",
             "data": {
                "name": "Social 1",
-               "imgsrc": "/data_img/contact/linkedIn2.svg",
+               "imgsrc": "/data_img/contact/linkedin-2.png",
                "imgalt": "LinkedIn",
-               "link": "https://www.linkedin.com/"
+               "link": "https://www.linkedin.com/school/iiit-bangalore/?originalSubdomain=in"
             }
          },
          {
@@ -18,9 +18,9 @@
             "uid": "12",
             "data": {
                "name": "Social 2",
-               "imgsrc": "/data_img/contact/slack.svg",
+               "imgsrc": "/data_img/contact/discord-2.png",
                "imgalt": "Slack",
-               "link": "https://app.slack.com/"
+               "link": "https://discord.gg/myGjAZAu6Z"
             }
          },
          {
@@ -30,7 +30,7 @@
                "name": "Social 3",
                "imgsrc": "/data_img/contact/github2.svg",
                "imgalt": "GitHub",
-               "link": "https://github.com/"
+               "link": "https://github.com/zense"
             }
          },
          {
@@ -50,7 +50,7 @@
                "name": "Social 5",
                "imgsrc": "/data_img/contact/youtube.svg",
                "imgalt": "YouTube",
-               "link": "https://www.youtube.com/"
+               "link": "https://www.youtube.com/channel/UCSonPDf1Kvhf1T5t16dSI-A"
             }
          }
       ],
