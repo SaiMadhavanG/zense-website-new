@@ -1,26 +1,26 @@
 import UpcomingEvents from '../components/UpcomingEvents';
 import Timeline from '../components/Timeline';
-import {Container,Row,Col} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import '../static/News.css'
 
 
 function News() {
   return (
-    <div>
-      <Container fluid> 
+    <div id="upcoming-events">
+      <Container fluid>
         <Row >
-            <Col >
+          <Col >
             <div className="upcoming-event-title">Upcoming Events</div>
-            </Col>
+          </Col>
         </Row>
         <Row>
-            <Col>
-              <UpcomingEvents/>
-            </Col>
+          <Col>
+            <UpcomingEvents />
+          </Col>
         </Row>
       </Container>
-      
-      <Container fluid>
+
+      {/* <Container fluid>
         <Row>
           <Col>
             <div className="timeline-title">Our Journey</div>
@@ -28,13 +28,13 @@ function News() {
         </Row>
         <Row>
           <Col>
-            <Timeline/>
+            <Timeline />
           </Col>
         </Row>
 
-      </Container>
+      </Container> */}
     </div>
-    )
+  )
 }
 
 export default News;
