@@ -7,14 +7,14 @@ import NotFound from './Http/NotFound';
 import Team from './components/Team';
 import About from './components/About';
 import Contact from './components/Contact';
+import Projects from './components/Projects';
 
 const BaseRouter = () => (
   <div>
     <Switch>
       <Route exact path='/' component={Home} />
       <Route exact path='/upcoming-events' component={News} />
-      {/* 
-      <Route exact path='/projects/' component={} /> */}
+      <Route exact path='/projects/' component={Projects} />
       <Route exact path='/about/' component={About} />
       <Route exact path='/people/' component={Team} />
       <Route exact path='/contact/' component={Contact} />

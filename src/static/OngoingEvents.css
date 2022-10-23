@@ -1,0 +1,80 @@
+
+.ongoing-events-container {
+    padding: 0.5vw 5vw 0vw 10vw !important;
+}
+
+.ongoing-events-card {
+    text-align: left;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 16px !important;
+    width: 385px;
+    margin-top: 30px;
+    background: transparent !important;
+}
+
+.ongoing-events-card-body {
+    padding: 0rem !important;
+    border-radius: 16px;
+    background: transparent !important;
+}
+
+.ongoing-events-card-title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 2.25rem !important;
+    background: #05A592 !important;
+    margin-bottom: 0 !important;
+    padding: 16px 16px 0 16px !important;
+    color: #FFFFFF;
+    border-radius: 16px 16px 0 0;
+}
+
+.ongoing-events-col {
+    width: 385px;
+    margin-right: 40px;
+    align-items: left;
+}
+
+.ongoing-events-card-subtitle {
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+    background: #05A592 !important;
+    padding: 16px !important;
+    color: #FFFFFF !important;
+}
+
+.ongoing-events-card-text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 1.25rem !important;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding: 16px !important;
+
+}
+
+.ongoing-events-card-button {
+    background-color: transparent !important;
+    background-image: url("../assets/plug.svg");
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    border: none !important;
+    padding: 16px !important;
+}
+
+.ongoing-events-card-button-text {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 1.25rem !important;
+    color: #FFFFFF;
+
+}
+
+.ongoing-events-card-button-text img {
+    margin: 20px !important;
+}

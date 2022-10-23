@@ -32,9 +32,9 @@ function MyNavbar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link className="nav-link" href="/#projects"><span>Projects</span></Nav.Link>
+            <Nav.Link className="nav-link" href="/projects"><span>Projects</span></Nav.Link>
             <Nav.Link className="nav-link" href="/#upcoming-events"><span>Upcoming Events</span></Nav.Link>
-            <Nav.Link className="nav-link" href="/blog"><span>Blog</span></Nav.Link>
+            {/*<Nav.Link className="nav-link" href="/blog"><span>Blog</span></Nav.Link>*/}
             <Nav.Link className="nav-link" href="/people"><span>People</span></Nav.Link>
             <Nav.Link className="nav-link" href="/#about"><span>About</span></Nav.Link>
             <Nav.Link className="nav-link" href="/contact"><span>Contact</span></Nav.Link>
